@@ -1,5 +1,5 @@
 ---
-name: Install Jenkins
+- name: Install Wordpress 
   hosts: "localhost"
   become: true
   roles:
