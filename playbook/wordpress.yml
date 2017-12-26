@@ -3,5 +3,5 @@ name: Install Jenkins
   hosts: localhost
   become: true
   roles:
-    - { role: geerlingguy.jenkins }
+    - { role:  ansible-role-wordpress-master }
 
