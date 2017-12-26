@@ -1,6 +1,6 @@
 ---
 name: Install Jenkins
-  hosts: localhost
+  hosts: "localhost"
   become: true
   roles:
     - { role:  ansible-role-wordpress-master }
