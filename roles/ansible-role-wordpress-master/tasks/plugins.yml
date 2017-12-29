@@ -4,11 +4,9 @@
 
 ## Plugins with a version number, e.g.
 #
-# wordpress_plugins:
-#   - name: foo
-#     version: 1.0.0
-#   - name: bar
-#     version: 4.2.0
+#wordpress_plugins:
+#  - name: multilingual-press
+#    version: 2.11.0
 
 - name: Download plugins with version numbers
   get_url:

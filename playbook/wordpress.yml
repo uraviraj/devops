@@ -3,5 +3,8 @@
   hosts: "localhost"
   become: true
   roles:
-    - { role:  ansible-role-wordpress-master }
+    - { role:  /etc/ansible/roles/bertvv.httpd }
+    - { role:  roles/bertvv.mariadb }
+    - { role:  roles/ansible-role-wordpress-master }
+
 

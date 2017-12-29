@@ -4,7 +4,7 @@
 wordpress_database_host: localhost
 wordpress_database: wordpress
 wordpress_user: wordpress
-wordpress_password: wordpress
+wordpress_password: ravi123
 
 wordpress_plugins: []
 wordpress_themes: []
